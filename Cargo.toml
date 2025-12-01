@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members = ["day1"]
+
+[workspace.dependencies]
+anyhow = { version = "1.0" }
+itertools = { version = "0.14" }
+nom = { version = "8.0" }
+petgraph = { version = "0.8" }
+thiserror = { version = "2.0" }
